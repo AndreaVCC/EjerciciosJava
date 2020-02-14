@@ -1,6 +1,18 @@
 package Enumeracion_enum;
 
-public class Enumeracion {
-//enum
+public enum Enumeracion {
+	
+	//CONSTANTES DE LOS DIAS DE LA SEMANA
+	LUNES,
+	MARTES,
+	MIERCOLES,
+	JUEVES,
+	VIERNES,
+	SABADO,
+	DOMINGO
 	
 }
+
+
+
+
