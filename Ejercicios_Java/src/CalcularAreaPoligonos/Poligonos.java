@@ -1,3 +1,12 @@
+/*
+ * Calcular el area de poligonos (Triangulo y Rectangulo)
+ * Almacenar en un arraylist N triangulos y rectangulos
+ * Mostrar el area y datos de cada uno
+ * 
+ * Usar Herencia, Polimorfismo, Abstraccion y Encapsulacion.
+ */
+
+
 package CalcularAreaPoligonos;
 
 public abstract class Poligonos {
@@ -21,5 +30,6 @@ public abstract class Poligonos {
 		return "Poligonos [numeroLados=" + numeroLados + "]";
 	}
 	
+	//Metodo abstract
 	public abstract double calcularArea();
 }

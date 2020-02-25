@@ -19,7 +19,7 @@ public class Rectangulo extends Poligonos {
 		return lado2;
 	}
 
-	
+	//Sobreescribe metodo creado en Poligono
 	@Override
 	public double calcularArea() {
 		return lado1 * lado2;
