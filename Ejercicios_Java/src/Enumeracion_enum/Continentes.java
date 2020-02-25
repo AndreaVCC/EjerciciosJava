@@ -21,6 +21,16 @@ public enum Continentes {
 		return this.paises;
 	}
 	
+	public static void indicarDia(Continentes dias) {
+		switch (dias) {
+		case AMERICA: {
+			System.out.println("Tiene " + Continentes.AMERICA.getPaises() + "paises.");
+			break;
+		}
+		default:
+			System.out.println("Ingrese otro");
+		}
+	}
 	
 	
 }

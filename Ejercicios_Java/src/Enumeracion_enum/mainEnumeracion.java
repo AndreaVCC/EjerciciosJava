@@ -9,20 +9,16 @@ public class mainEnumeracion {
 		System.out.println(Continentes.AFRICA);
 		System.out.println(Continentes.AMERICA.getPaises());
 
-		indicarDia(Continentes.AMERICA);
-	}
-
-	private static void indicarDia(Continentes dias) {
-		switch (dias) {
-		case AMERICA: {
-			System.out.println("Tiene " + Continentes.AMERICA.getPaises() + "paises.");
-			break;
-		}
-		default:
-			System.out.println("Ingrese otro");
+		//llamando al metodo 
+		Continentes.indicarDia(Continentes.AMERICA);
+		
+		//recorrer constantes y convertirlo en array
+		for (Continentes continentes : Continentes.values()) {
+			System.out.println(continentes);
 		}
 	}
 
 
-}
+	}
+
 
